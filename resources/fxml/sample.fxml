@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:id="grid1" alignment="center" hgap="10" prefHeight="404.0" prefWidth="546.0" stylesheets="/css/project.css" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rs.Controller">
+   <columnConstraints>
+      <ColumnConstraints fx:id="colona1" />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints fx:id="red" />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Button mnemonicParsing="false" styleClass="tipka" text="Add" GridPane.valignment="BOTTOM" />
+      <Button mnemonicParsing="false" styleClass="tipka" text="Remove" GridPane.columnIndex="2" GridPane.valignment="BOTTOM" />
+      <Button fx:id="upitnik" mnemonicParsing="false" styleClass="tipka1" text="?" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM" />
+      <Label text="Data" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label text="  Coas" GridPane.rowIndex="2" />
+      <Label text="  Goods" GridPane.rowIndex="3" />
+      <Label text="  Employees" GridPane.rowIndex="4" />
+      <Label text="  Departments" GridPane.rowIndex="5" />
+      <GridPane fx:id="grid2" minWidth="424.0" prefHeight="326.0" prefWidth="429.0" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="1" GridPane.rowSpan="11">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="50.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="10.0" prefWidth="78.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="260.0" minWidth="10.0" prefWidth="190.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="220.0" minWidth="10.0" prefWidth="136.0" />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+            <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="38.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="46.0" minHeight="10.0" prefHeight="46.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+            <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+        </rowConstraints>
+         <children>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../img/x-09-512.png" />
+               </image>
+            </ImageView>
+            <Label text="Employees" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Label text="&gt;45 years" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label prefHeight="0.0" prefWidth="76.0" text="28-45 years" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <ImageView fitHeight="172.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <image>
+                  <Image url="@../img/66-512.png" />
+               </image></ImageView>
+            <Label text="&gt;28 years" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+         </children>
+      </GridPane>
+   </children>
+</GridPane>

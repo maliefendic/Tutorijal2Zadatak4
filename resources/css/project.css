@@ -1,0 +1,14 @@
+#grid1{
+    -fx-background-color: #70ff6e;
+}
+
+#grid2{
+    -fx-background-color: #70f8ff;
+}
+.tipka{
+    -fx-pref-height: 30px;
+}
+.tipka1{
+    -fx-pref-height: 30px;
+    -fx-pref-width: 30px;
+}
